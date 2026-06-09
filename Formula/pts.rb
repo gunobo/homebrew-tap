@@ -6,7 +6,6 @@ class Pts < Formula
   license "MIT"
 
   depends_on :macos
-  depends_on xcode: :build
 
   def install
     system "swift", "build", "-c", "release", "--disable-sandbox"
