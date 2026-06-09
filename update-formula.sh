@@ -4,7 +4,7 @@
 
 set -e
 VERSION="${1:?버전을 입력하세요. 예: ./update-formula.sh 1.0.0}"
-URL="https://github.com/gunobo/PortSearcher/archive/refs/tags/v$VERSION.tar.gz"
+URL="https://github.com/gunobo/PortSearcher/releases/download/v$VERSION/pts-arm64.tar.gz"
 
 echo "📦 tarball 다운로드 중: $URL"
 TMP=$(mktemp)
