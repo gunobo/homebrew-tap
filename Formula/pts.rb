@@ -1,10 +1,10 @@
 class Pts < Formula
   desc "macOS 포트 사용 현황 확인 CLI 도구"
   homepage "https://github.com/gunobo/PortSearcher"
-  url "https://github.com/gunobo/PortSearcher/releases/download/v1.3.0/pts-arm64.tar.gz"
-  sha256 "f0476d2546890282ca852b92be4a93ff78aa4c3304cd8496a178d240e244eba6"
+  url "https://github.com/gunobo/PortSearcher/releases/download/v1.4.0/pts-arm64.tar.gz"
+  sha256 "c8a93140c2261f327c1475d0ec450b65a18d170652bdf4208a05e7e1a1b7c51f"
   license "MIT"
-  version "1.3.0"
+  version "1.4.0"
 
   depends_on :macos
 
